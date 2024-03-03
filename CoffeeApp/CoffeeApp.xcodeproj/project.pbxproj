@@ -14,6 +14,7 @@
 		50494B122B912D5900C13345 /* CoffeeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50494B112B912D5900C13345 /* CoffeeAppTests.swift */; };
 		50494B1C2B912D5900C13345 /* CoffeeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50494B1B2B912D5900C13345 /* CoffeeAppUITests.swift */; };
 		50494B1E2B912D5900C13345 /* CoffeeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50494B1D2B912D5900C13345 /* CoffeeAppUITestsLaunchTests.swift */; };
+		50494B2E2B9430B700C13345 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50494B2D2B9430B600C13345 /* Coffee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		50494B172B912D5900C13345 /* CoffeeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50494B1B2B912D5900C13345 /* CoffeeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeAppUITests.swift; sourceTree = "<group>"; };
 		50494B1D2B912D5900C13345 /* CoffeeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50494B2D2B9430B600C13345 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,9 @@
 		50494AFF2B912D5700C13345 /* CoffeeApp */ = {
 			isa = PBXGroup;
 			children = (
+				50494B2C2B94309300C13345 /* Controller */,
+				50494B2B2B94306C00C13345 /* View */,
+				50494B2A2B94306400C13345 /* Model */,
 				50494B002B912D5700C13345 /* CoffeeAppApp.swift */,
 				50494B022B912D5700C13345 /* ContentView.swift */,
 				50494B042B912D5900C13345 /* Assets.xcassets */,
@@ -125,6 +130,28 @@
 				50494B1D2B912D5900C13345 /* CoffeeAppUITestsLaunchTests.swift */,
 			);
 			path = CoffeeAppUITests;
+			sourceTree = "<group>";
+		};
+		50494B2A2B94306400C13345 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50494B2D2B9430B600C13345 /* Coffee.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50494B2B2B94306C00C13345 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50494B2C2B94309300C13345 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +286,7 @@
 			files = (
 				50494B032B912D5700C13345 /* ContentView.swift in Sources */,
 				50494B012B912D5700C13345 /* CoffeeAppApp.swift in Sources */,
+				50494B2E2B9430B700C13345 /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
