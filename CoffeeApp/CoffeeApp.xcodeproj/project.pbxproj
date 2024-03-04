@@ -15,6 +15,8 @@
 		50494B1C2B912D5900C13345 /* CoffeeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50494B1B2B912D5900C13345 /* CoffeeAppUITests.swift */; };
 		50494B1E2B912D5900C13345 /* CoffeeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50494B1D2B912D5900C13345 /* CoffeeAppUITestsLaunchTests.swift */; };
 		50494B2E2B9430B700C13345 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50494B2D2B9430B600C13345 /* Coffee.swift */; };
+		50494B342B95849D00C13345 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50494B332B95849D00C13345 /* Homepage.swift */; };
+		50494B362B95865500C13345 /* CoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50494B352B95865500C13345 /* CoffeeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		50494B1B2B912D5900C13345 /* CoffeeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeAppUITests.swift; sourceTree = "<group>"; };
 		50494B1D2B912D5900C13345 /* CoffeeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		50494B2D2B9430B600C13345 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		50494B332B95849D00C13345 /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		50494B352B95865500C13345 /* CoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 		50494B2B2B94306C00C13345 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				50494B332B95849D00C13345 /* Homepage.swift */,
+				50494B352B95865500C13345 /* CoffeeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,6 +293,8 @@
 				50494B032B912D5700C13345 /* ContentView.swift in Sources */,
 				50494B012B912D5700C13345 /* CoffeeAppApp.swift in Sources */,
 				50494B2E2B9430B700C13345 /* Coffee.swift in Sources */,
+				50494B342B95849D00C13345 /* Homepage.swift in Sources */,
+				50494B362B95865500C13345 /* CoffeeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
