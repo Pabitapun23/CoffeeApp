@@ -14,3 +14,7 @@ struct Coffee : Identifiable {
     var price : String
 }
 
+var coffees: [Coffee] = [
+    .init(imageName: "coffee1", title: "Caramel\nCold Drink", price: "$3.90"),
+    .init(imageName: "coffee2", title: "Caramel\n Macchiato", price: "$2.30")
+]
